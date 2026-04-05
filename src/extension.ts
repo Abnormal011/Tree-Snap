@@ -20,7 +20,9 @@ export function activate(context: vscode.ExtensionContext) {
                     prompt: 'Enter new folder name'
                 });
 
-                if (!folderName) return;
+                if (!folderName) {
+                    return;
+                }
 
                 const workspace = vscode.workspace.workspaceFolders;
 
@@ -55,7 +57,9 @@ export function activate(context: vscode.ExtensionContext) {
                             { placeHolder: `${relativePath} already exists. Overwrite?` }
                         );
 
-                        if (overwrite !== 'Yes') continue;
+                        if (overwrite !== 'Yes') {
+                            continue;
+                        }
                     }
 
                     const stat = await fs.stat(sourcePath);

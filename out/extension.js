@@ -49,8 +49,9 @@ function activate(context) {
             const folderName = await vscode.window.showInputBox({
                 prompt: 'Enter new folder name'
             });
-            if (!folderName)
+            if (!folderName) {
                 return;
+            }
             const workspace = vscode.workspace.workspaceFolders;
             if (!workspace) {
                 vscode.window.showErrorMessage('Open a workspace first');
@@ -70,8 +71,9 @@ function activate(context) {
                 const exists = await fs.pathExists(destinationPath);
                 if (exists) {
                     const overwrite = await vscode.window.showQuickPick(['Yes', 'No'], { placeHolder: `${relativePath} already exists. Overwrite?` });
-                    if (overwrite !== 'Yes')
+                    if (overwrite !== 'Yes') {
                         continue;
+                    }
                 }
                 const stat = await fs.stat(sourcePath);
                 if (stat.isDirectory()) {

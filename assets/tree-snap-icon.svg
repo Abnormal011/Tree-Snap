@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="56" fill="#102A43"/>
+  <rect x="28" y="32" width="200" height="192" rx="28" fill="url(#panel)"/>
+  <path d="M74 77C74 71.4772 78.4772 67 84 67H116.591C119.244 67 121.789 68.0536 123.664 69.9289L132.071 78.3358C133.946 80.2111 136.491 81.2647 139.144 81.2647H172C177.523 81.2647 182 85.7419 182 91.2647V168C182 173.523 177.523 178 172 178H84C78.4771 178 74 173.523 74 168V77Z" fill="#D9F3FF"/>
+  <path d="M74 95C74 89.4772 78.4772 85 84 85H172C177.523 85 182 89.4772 182 95V168C182 173.523 177.523 178 172 178H84C78.4772 178 74 173.523 74 168V95Z" fill="#9BD1FF"/>
+  <path d="M101 111H155" stroke="#102A43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M101 135H128" stroke="#102A43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M58 192L92 192L92 226L58 226C52.4772 226 48 221.523 48 216L48 202C48 196.477 52.4772 192 58 192Z" fill="#F0B429"/>
+  <path d="M104 192H198C203.523 192 208 196.477 208 202V216C208 221.523 203.523 226 198 226H104V192Z" fill="#D64545"/>
+  <path d="M92 209H164" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <path d="M164 209L146 191" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 209L146 227" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="190" cy="58" r="18" fill="#2F855A"/>
+  <path d="M190 47V69" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path d="M179 58H201" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="panel" x1="128" y1="32" x2="128" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#164E63"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>

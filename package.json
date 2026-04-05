@@ -3,6 +3,7 @@
   "displayName": "tree-snap",
   "description": "Copy selected files with folder structure",
   "version": "0.0.1",
+  "icon": "assets/tree-snap-icon.png",
   "engines": {
     "vscode": "^1.110.0"
   },
